@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Menu Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <div class="outer-content">
+        <div class="menu-bar">
+            <ul>
+                <b><li class="active">Home</li></b>
+                <b><li>About Us</li></b>
+                <b><li>Services</li></b>
+                <b><li>Our locations</li></b>
+                <b><li>Contact</li></b>
+            </ul>
+        </div>
+        <div class="inner-content">
+            <form action="submission.html">
+                <b><h1>Create your Jollof Rice!</h1></b>
+                <section class="cooked ">
+                    <label for="doneness">How well cooked do you want you Jollof Rice?</label>
+                    <br>
+                    <span>Rare</span>
+                    <input type="range" name="doneness" id="doneness" value="" min="1" max="5">
+                    <span> Well-cooked </span>
+                </section>
+                <br>
+                <br>
+                <section class="protein">
+                    <span>What type of protein would you like?</span>
+                    <br>
+                    <input type="checkbox" name="protein" id="chicken" value="chicken">
+                    <label for="chicken">Chicken</label>
+                    <input type="checkbox" name="protein" id="cow meat" value="cow meat">
+                    <label for="cow meat">Cow meat</label>
+                    <input type=checkbox name="protein" id="goat meat" value="goat meat">
+                    <label for="goat meat">Goat meat</label>
+                    <input type="checkbox" name="protein" id="fish" value="fish">
+                    <label for="fish">Fish</label>
+                </section>
+                <br>
+                <section class="vegetables">
+                    <span>What vegetables would you like?</span>
+                    <br>
+                    <input type="checkbox" name="vegetables" id="onions" value="onions">
+                    <label for="onions">Onions</label>
+                    <input type="checkbox" name="vegetables" id="carrot" value="carrot">
+                    <span>Carrot</span>
+                    <input type="checkbox" name="vegetables" id="green beans" value="green beans">
+                    <span>Green beans</span>
+                    <input type="checkbox" name="vegetables" id="green peas" value="green peas">
+                    <span>Green peas</span>
+                    <input type="checkbox" name="vegetables" id="green pepper" value="green pepper">
+                    <span>Green pepper</span>
+                    <input type="checkbox" name="vegetables" id="None" value="None">
+                    <span>None</span>
+                </section>
+                <br>
+                <br>
+                <section>
+                    <label for="spicy">How spicy do you want your rice?</label>
+                    <br>
+                    <span>Not spicy</span>
+                    <input type="range" name="spicy" id="spicy" value="" min="1" max="5">
+                    <span>Very spicy</span>
+                </section>
+                <br>
+                <section>
+                    <label for="sides">What sides would you like with your jollof rice?</label>
+                    <br>
+                    <input type="checkbox" name="sides" value="coleslaw">
+                    <span>Coleslaw</span>
+                    <input type="checkbox" name="sides" value="plantain">
+                    <span>Plantain</span>
+                    <input type="checkbox" name="sides" value="moi-moi">
+                    <span>Moi-Moi</span>
+                    <input type="checkbox" name="sides" value="None">
+                    <span>None</span>
+                </section>
+                <br>
+                <section>
+                    <input type="submit" value="Place your order!" class="submit">
+                </section>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

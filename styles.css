@@ -1,0 +1,47 @@
+* body {
+    background-color: orange;
+    text-align: center;
+    background-image: url(jollof.png);
+}
+
+form {
+    text-align: center;
+}
+
+.inner-content {
+    border-radius: 700px;
+    background-color: #f2f2f2e3;
+    padding: 20px;
+}
+
+.menu-bar {
+    width: 100%;
+    text-align: center;
+}
+
+.menu-bar ul li {
+    list-style: none;
+    display: inline-flex;
+    text-decoration: none;
+    color: #000;
+    margin: 15px 20px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+ul li ul li {
+    text-decoration: none;
+    color: #000;
+    vertical-align: right-side;
+    cursor: pointer;
+}
+
+.active,
+.menu-bar ul li:hover {
+    border-bottom: 2px solid #2ce44b;
+}
+
+.submit {
+    background-color: #2ce44b;
+    border-radius: 40px;
+}
